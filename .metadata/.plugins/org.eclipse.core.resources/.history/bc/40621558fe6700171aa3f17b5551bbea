@@ -1,0 +1,13 @@
+package com.fanniemae.payroll.dao;
+
+import java.sql.ResultSet;
+
+public class CityRepository extends AbstractSQLDAO {
+
+	@Override
+	public void results(ResultSet rs) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

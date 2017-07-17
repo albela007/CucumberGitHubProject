@@ -1,0 +1,30 @@
+package com.fanniemae.payroll.dao;
+
+import java.util.ArrayList;
+import java.util.Map;
+
+public class CarRepository implements IQuery<String> {
+
+	@Override
+	public ArrayList<String> findAll() {
+
+		list.add("BMW,50_000");
+		list.add("Toyota,22000");
+		list.add("Honda,30000");
+		list.add("Alpha Romeo,55000");
+		list.add("Tesla,70000");
+		list.add("Ashton Martin,60000");
+		list.add("Lamborghini,300000");
+		list.add("Nissan,32000");
+		list.add("Volkswagen,50000");
+		list.add("Bentley,500000");
+		return list;
+	}
+
+	@Override
+	public Map<String, Double> findMaps() {
+		// TODO Auto-generated method stub
+		return IQuery.super.findMaps();
+	}
+
+}

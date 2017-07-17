@@ -1,0 +1,17 @@
+package com.fanniemae.payroll;
+
+public class UnionEmployee extends Employee {
+
+	float hoursWorked = 40f;
+
+	public UnionEmployee(float yearlySalary) {
+		super(yearlySalary);
+	}
+		
+	public UnionEmployee(float yearlySalary, float hoursWorked){
+		super(yearlySalary);
+		this.hoursWorked=hoursWorked;
+	}
+	
+
+}

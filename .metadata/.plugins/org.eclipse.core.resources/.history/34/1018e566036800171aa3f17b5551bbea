@@ -1,0 +1,31 @@
+package com.fanniemae.payroll.dao;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class CityRepository extends AbstractSQLDAO {
+
+	@Override
+	public void results(ResultSet rs) {
+		// TODO Auto-generated method stub
+		try {
+		//	System.out.println(rs.getString("name"));
+			System.out.println("id=" 
+					+ rs.getString("id") 
+					+ ", name=" 
+					+ rs.getString("name")
+					+",population="
+					+ rs.getInt("population"));
+		
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public void process() { 
+		String sql = "select id, name, population from city";
+		super.process(sql);
+	}
+	
+}

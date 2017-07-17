@@ -1,0 +1,49 @@
+package com.fanniemae.payroll.model;
+
+public class EmployeeType {
+	private String type;
+	private float salary;
+	private float hoursWorked;
+	
+	public EmployeeType(String type, float salary, float hoursWorked) {
+	//	super();
+		this.type = type;
+		this.salary = salary;
+		this.hoursWorked = hoursWorked;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public float getSalary() {
+		return salary;
+	}
+
+	public float getHoursWorked() {
+		return hoursWorked;
+	}
+
+	@Override
+	public String toString() {
+		return "EmployeeType [type=" + type + ", salary=" + salary + ", hoursWorked=" + hoursWorked + "]";
+	}
+
+	@Override
+	public boolean equals(Object arg0) {
+		 String me = this.toString() ;
+		 String incoming = arg0.toString();
+				 
+		return me.equals(incoming);
+	}
+
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
+	
+	 
+	
+	
+}

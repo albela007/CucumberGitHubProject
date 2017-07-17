@@ -1,0 +1,10 @@
+package com.fanniemae.payroll;
+
+public class UnionEmployee extends Employee {
+
+	public UnionEmployee(float yearlySalary) {
+		super(yearlySalary);
+		// TODO Auto-generated constructor stub
+	}
+
+}

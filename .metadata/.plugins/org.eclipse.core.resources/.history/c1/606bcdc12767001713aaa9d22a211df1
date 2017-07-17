@@ -1,0 +1,30 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.fanniemae.payroll.ManagementEmployee;
+
+public class ManagementEmployeeTest {
+
+	
+	//Positive scenario
+	@Test
+	public void testHourlyWagePositive() {
+		ManagementEmployee m = new ManagementEmployee(52000,40);
+		float wage = m.getHourlyWage();
+		
+		assertTrue(wage ==25);
+		
+	}
+
+	
+	//Negative scenario
+	@Test
+	public void testHourlyWageNegative() {
+		ManagementEmployee m = new ManagementEmployee(52000,40);
+		float wage = m.getHourlyWage();
+		
+		assertTrue(wage ==252);
+		
+	}
+}

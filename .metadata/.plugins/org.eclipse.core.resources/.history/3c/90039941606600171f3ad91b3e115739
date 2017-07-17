@@ -1,0 +1,41 @@
+package com.fanniemae.payroll;
+
+public class ManagementEmployee extends Employee {
+	float hoursWorked = 40f;
+	//constructor method
+	public ManagementEmployee(float yearlySalary) {
+		super(yearlySalary);
+		
+	}
+
+	//over loading example-same name as above but diff parameters
+	public ManagementEmployee(float yearlySalary, float hw) {
+		super(yearlySalary);
+		this.hoursWorked = hw;
+	}
+
+	@Override
+	public float overTimeHourlyWage() {
+		float otwage = 0f;
+		if (hoursWorked >= 50){
+			otwage = 1000/(hoursWorked -40);
+		}
+		if (hoursWorked >= 60){
+			otwage = 2000/(hoursWorked -40);
+		}
+		if (hoursWorked >= 80){
+			otwage = 3000/(hoursWorked -40);
+		}
+		return otwage;
+	}
+
+	//@Override
+	//public float getWeeklySalary() {
+		 
+			
+	//}
+	
+	
+	
+	
+}

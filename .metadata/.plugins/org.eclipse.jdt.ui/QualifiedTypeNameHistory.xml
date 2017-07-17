@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.dao.EmployeeRepository"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.ManagementEmployee"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.Employee"/>
+<fullyQualifiedTypeName name="SalesTaxList"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.dao.SalesTaxRepository"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.dao.ShoppingRepository"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.dao.IQuery"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.model.EmployeeType"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.dao.CarRepository"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.UnionEmployee"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.dao.CityRepository"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.dao.CountryRepository"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.model.City"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.model.Country"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.model.Registration"/>
+<fullyQualifiedTypeName name="com.fanniemae.payroll.dao.RegistrationRepository"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.Ignore"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+</qualifiedTypeNameHistroy>

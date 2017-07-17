@@ -1,0 +1,18 @@
+package com.fanniemae.payroll.driver;
+
+import java.util.HashMap;
+
+public class DriverMap {
+	
+	public static void main(String [] args){
+	
+		HashMap<String,Double> map = new HashMap<> ();
+		
+		map.put("david", 1000000d);
+		map.put("lucy", 2000000d);
+		map.put("peter", 3000000d);
+		
+		System.out.println(map.get("david"));
+		
+			}
+}

@@ -1,0 +1,22 @@
+import com.fanniemae.payroll.ManagementEmployee;
+
+public class DriverManagementEmployee {
+
+	public static void main(String[] args) {
+		
+		//Instantiation
+		ManagementEmployee emp = new ManagementEmployee(52000,51);
+		
+		
+		float w = emp.getWeeklySalary();
+		float m = emp.getMonthlySalary();
+		float h = emp.getHourlyWage();
+		
+		System.out.println("Weekly Salary is " + w);
+		System.out.println("Monthly Salary is " + m);
+		System.out.println("Hourly wage is " + h);
+		
+	}
+
+
+}

@@ -1,0 +1,28 @@
+package com.fanniemae.payroll;
+
+public class UnionEmployee extends Employee {
+
+	float hoursWorked = 40f;
+
+	public UnionEmployee(float yearlySalary) {
+		super(yearlySalary);
+	}
+		
+	public UnionEmployee(float yearlySalary, float hoursWorked){
+		super(yearlySalary);
+		this.hoursWorked=hoursWorked;
+	}
+	
+	@Override
+	public float getWeeklySalary(){
+		return 0;
+	}
+	//Annotations
+	@Override
+	// the above override keyword tells the compiler to look at the parent and indicates that the tostring even
+	// if it is misspelt --compiler corrects it to 'toString'
+	
+	public String toString() {
+		return " Iam an employee that makes " + this.getYearlySalary() + " yearly";
+	}
+}

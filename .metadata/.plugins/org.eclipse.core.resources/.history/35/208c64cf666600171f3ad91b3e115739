@@ -1,0 +1,28 @@
+import com.fanniemae.payroll.Employee;
+import com.fanniemae.payroll.ManagementEmployee;
+
+public class DriverPolyMorphism {
+
+	public static void main(String[] args) {
+		
+		//Instantiation
+		
+		Object o = new Employee(175000);
+		
+		Employee emp = (Employee) o; // this is more like opening the employee object and since Employee is a child of Object(ctrl+T to see the hierarchy),this is called as down casting. If we don't cast it then we cannot access
+		                              //the methods inside the emp class. example if we put a dot next to 'o' then we don't see all the methods in emp eventhough we are creating a constructor out of it.
+			 
+		
+		
+		float w = emp.getWeeklySalary();
+		float m = emp.getOverTimeHourlyWage();
+		float h = emp.getHourlyWage();
+		
+		System.out.println("Weekly Salary is " + w);
+		System.out.println("Overtime Wage is " + m);
+		System.out.println("Hourly wage is " + h);
+		
+	}
+
+
+}

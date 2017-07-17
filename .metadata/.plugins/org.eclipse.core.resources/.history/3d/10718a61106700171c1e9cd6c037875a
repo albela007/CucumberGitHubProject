@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+
+import com.fanniemae.payroll.Employee;
+import com.fanniemae.payroll.ManagementEmployee;
+import com.fanniemae.payroll.UnionEmployee;
+
+public class DriverShoppingList {
+
+	public static void main(String[] args) {
+		 
+		ArrayList<Employee> emplist = new ArrayList<>(); //diamond operator for ArrayList to indicate everything inside the list should be a string 
+															//otherwise ArrayList is by default an Object datatype
+		
+		
+		emplist.add(new Employee (52000));
+		emplist.add(new UnionEmployee(52000,40));
+		emplist.add(new ManagementEmployee(52000));
+		
+		for (Employee employee : emplist) {
+			System.out.println(employee);
+		}
+		
+		ArrayList<Float> numbers = new ArrayList<>();
+		numbers.add(100f);
+		numbers.add(98f);
+		numbers.add(49f);
+		numbers.add(33.3f);
+		
+		
+	}
+	
+}

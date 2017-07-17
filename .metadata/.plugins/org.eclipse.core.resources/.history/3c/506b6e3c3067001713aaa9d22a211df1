@@ -1,0 +1,26 @@
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+
+import org.junit.Test;
+
+public class SalesTaxList {
+
+	@Test
+	public void testIfNYExist() {
+
+		SalesTaxRepository s = new SalesTaxRepository(); 
+		ArrayList<String> taxList = s.findAll();	
+		
+		boolean isNewYorkAvailable = false;
+		
+		for (String x  : taxList) {
+			isNewYorkAvailable = x.contains("NY");
+			if (isNewYorkAvailable){
+			break;	
+			}
+			System.out.println(x);
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.fanniemae.payroll.dao;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class RegistrationRepository extends AbstractSQLDAO implements IModify<Registration> {
+
+	@Override
+	protected void results(ResultSet rs) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
+}

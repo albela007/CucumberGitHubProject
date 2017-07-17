@@ -1,0 +1,19 @@
+import com.fanniemae.payroll.UnionEmployee;
+
+public class DriverUnionEmployee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//this process is called instantiation.
+		UnionEmployee emp = new UnionEmployee(52000,35);
+		float w = emp.getWeeklySalary();
+		
+		
+		System.out.println("Weekly Salary is " + w);
+		
+		
+	}
+
+
+}

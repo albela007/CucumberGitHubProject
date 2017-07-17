@@ -1,0 +1,16 @@
+package com.fanniemae.payroll;
+
+public class EmailProcess {
+public void sendEmail(){
+	System.out.println("email process started.. ");
+	try {
+		Thread.sleep(10_000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+	System.out.println("email process Ended! ");
+}
+	
+}
